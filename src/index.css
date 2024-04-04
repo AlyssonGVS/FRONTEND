@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+    font-family: robo;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.divMain {
+    width: 1200px;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.forms,
+.forms form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.forms form input {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.forms form input::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.forms form p {
+    font-size: 0.6rem;
+    color: green;
+    font-weight: bold;
+
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+.btn-warning{
+    background-color: yellow;
+}
+.btn-danger{
+    background-color: red;
+}
+
+.btn-warning,
+.btn-danger {
+    color: black;
+    font-weight: bold;
+
+}
+
+
+.btn-warning:hover,
+.btn-danger:hover {
+    color: white;
+}
+.btn-black:hover{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(48, 116, 244);
+     
+}
+
+.select-buttons{
+    display: flex;
+    gap: 16px;
+    
+}
+
+.open{
+    display: flex;
+}
+
+
+/* Dividindo as colunas em tamanhos iguais */
+.fullArea{
+    width: 1190px;
+    height: 80vh;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    overflow: scroll;
+    position: absolute;
+    top: 15vh;
+   
+
+}
+.container{
+    min-width: none;
+    max-width: 1190px;
+    
+}
+.row {
+    display: flex;
+    border: 1px solid;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+}
+
+.col-sm {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}

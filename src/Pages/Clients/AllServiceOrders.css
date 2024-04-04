@@ -1,0 +1,92 @@
+/* Service Orders Full area */
+.ocult{
+    display: none;
+}
+#service-Orders-FullArea {
+    
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Botoes das colunas */
+.col-btn {
+    flex: 0.7 !important;
+}
+
+.col-btn button {
+    width: 100% !important;
+}
+
+.col-btn button:focus {
+    background-color: blue;
+}
+/* Botoes das colunas */
+
+/* Botoes create and all */
+#btn-all, #btn-create{
+    width: 100px !important;
+}
+/* Botoes create and all */
+
+
+/* details */
+.details {
+    display: none;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation: upToDown 0.2s linear forwards;
+    
+}
+
+.row {
+    background-color: white;
+}
+
+
+
+.details div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+    padding: 5px;
+}
+
+.details button {
+    max-width: 100px;
+    align-self: center;
+}
+
+.details button a {
+    text-decoration: none;
+}
+
+.details button:hover a {
+    color: white;
+}
+
+/* OPTIONS */
+.options-OS {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 4px;
+    padding: 2px;
+
+}
+
+.options-OS button {
+    width: 100px !important;
+    height: 30px !important;
+}
+
+/* Label Client */
+.select{
+    display: flex;
+    flex-direction: column;
+    gap: 4PX;
+
+
+}

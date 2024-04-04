@@ -1,0 +1,78 @@
+
+
+.list,
+.createContainer {
+    display: none;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 1190px;
+    padding: 5px;
+    border-radius: 10px;
+    height: 80vh;
+    overflow: scroll;
+    gap: 16px;
+    position: absolute;
+    top: 15vh;
+
+
+}
+
+
+
+.btns {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+.btns button,.btns a {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    max-height: 70%;
+    width: 100% !important;
+}
+
+.btns input {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    max-height: 70%;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+
+#btn-allClients,
+#btn-createClient {
+    width: auto !important;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#btn-allClients:focus,
+#btn-createClient:focus {
+    background-color: rgb(48, 116, 244);
+}
+
+.select-buttons button:disabled {
+    background-color: rgb(48, 116, 244);
+}
+
+.select-buttons {
+    position: absolute;
+    top: 9vh;
+}
+
+
+/* === Create form */
+.createContainer {
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+

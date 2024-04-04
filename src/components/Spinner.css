@@ -1,0 +1,19 @@
+.spinnerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100dvh;
+    height: 97vh;
+
+
+}
+
+.spinner{
+    width: 200px;
+    height: 200px !important;
+    border: 10px solid black;
+    border-radius: 50% ;
+    border-left: none;
+    border-bottom: none;
+
+}

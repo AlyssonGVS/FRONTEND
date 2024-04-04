@@ -1,0 +1,50 @@
+
+
+.mensagem{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    position: absolute;
+    z-index: 100;
+    animation: upToDownPosition 0.2s linear forwards;    
+    
+
+}
+
+.mensagem p{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100% !important;
+}
+
+
+
+.error{
+
+    background-color: rgb(250, 146, 146);
+}
+.success{
+    background-color: yellowgreen;
+}
+
+/* KEYFRAMES */
+
+@keyframes upToDownPosition{
+    to{
+        top: 10vh;
+        opacity: 100%;
+    }
+    from{
+        top: 0vh;
+        opacity: 0%;
+
+    }
+}
